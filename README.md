@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# **Hospital Finder**
 
-## Getting Started
+# 🚀 Overview
 
-First, run the development server:
+The Hospital Finder is a web application that helps users locate nearby hospitals based on user location. It uses Next.js, React-Leaflet, and Overpass API for fetching hospitals and displaying them on an interactive map.
 
-```bash
+# ✨ Features
+
++ Fetches and displays nearby hospitals with markers
+
++ Shows hospital details (name, address, and phone number) on marker click
+
++ Option to get directions to a hospital with a route drawn on the map
+
++ Automatically closes popups when clicking elsewhere
+
++ Fully responsive UI with Tailwind CSS
+
+# 🛠️ Tech Stack
+
++ **Frontend:** Next.js, React, Tailwind CSS
+
++ **Map Library:** React-Leaflet, OpenStreetMap (OSM), Overpass API
+
++ **Auth:** Firebase Authentication
+
+# 🔧 Setup & Installation
+
+**Prerequisites**
+
++ Node.js (>= 16.x)
+
++ NPM or Yarn
+
++ API access to Overpass API (publicly available)
+
+**Installation Steps**
+1. Clone the repository
+
+`git clone https://github.com/your-username/hospital-finder.git
+cd hospital-finder`
+
+2. Install Dependencies
+
+`
+npm install
+# or
+yarn install
+`
+
+3. Run the development server
+
+`
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Live Website
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+[https](https://)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+`
+## 📌 Usage
+1. Login with Google Account
+2. Click **Find Nearby Hospitals**
+3. View hospitals on the map with markers
+4. Click a marker to view hospital details
+5. Click **Get Directions** to see the route
 
-## Learn More
+## ⚠️ Known Issues & Fixes
+- If the map is not loading properly, try resizing the window to trigger re-rendering
+- Ensure Overpass API is not rate-limited (retry after a few minutes if requests fail)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📜 License
+This project is **open-source** under the MIT License. Feel free to contribute! 🎉
+`

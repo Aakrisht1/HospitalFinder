@@ -1,0 +1,19 @@
+.logo{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 0.025em;
+    color: black;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 435px) {
+    .logo{
+        font-size: 1.2rem;
+    }
+  }
+
+  @media screen and (max-width: 399px) {
+      .logo{
+          font-size: 1rem;
+      }
+    }
