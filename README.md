@@ -37,30 +37,28 @@ The Hospital Finder is a web application that helps users locate nearby hospital
 **Installation Steps**
 1. Clone the repository
 
-`git clone https://github.com/Aakrisht1/HospitalFinder.git
-cd HospitalFinder`
+`git clone https://github.com/Aakrisht1/HospitalFinder.git`
+`cd HospitalFinder`
 
 2. Install Dependencies
 
-`
-npm install
+
+`npm install`
 # or
-yarn install
-`
+`yarn install`
 
 3. Run the development server
 
-`
-npm run dev
+
+`npm run dev`
 # or
-yarn dev
-`
+`yarn dev`
+
 
 4. Live Website
 
-[https](https://hospital-finder-dkbc.vercel.app/)
+[https://hospital-finder-dkbc.vercel.app/](https://hospital-finder-dkbc.vercel.app/)
 
-`
 ## 📌 Usage
 1. Login with Google Account
 2. Click **Find Nearby Hospitals**
@@ -74,4 +72,3 @@ yarn dev
 
 ## 📜 License
 This project is **open-source** under the MIT License. Feel free to contribute! 🎉
-`
