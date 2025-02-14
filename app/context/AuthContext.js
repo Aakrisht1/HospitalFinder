@@ -12,7 +12,7 @@ export const AuthContextProvider = ({children}) => {
         const provider = new GoogleAuthProvider();
         try {
             await signInWithPopup(auth, provider);
-            window.location.href = '/getLocation';
+            window.location.href = 'https://hospital-finder-dkbc.vercel.app/getLocation';
         } catch (error) {
             console.log(error);
         }
@@ -21,7 +21,7 @@ export const AuthContextProvider = ({children}) => {
     const logOut = async () => {
         try {
             await signOut(auth);
-            window.location.href = '/';
+            window.location.href = 'https://hospital-finder-dkbc.vercel.app/';
         } catch (error) {
             console.log(error);
         }

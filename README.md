@@ -37,8 +37,8 @@ The Hospital Finder is a web application that helps users locate nearby hospital
 **Installation Steps**
 1. Clone the repository
 
-`git clone https://github.com/your-username/hospital-finder.git
-cd hospital-finder`
+`git clone https://github.com/Aakrisht1/HospitalFinder.git
+cd HospitalFinder`
 
 2. Install Dependencies
 
@@ -58,7 +58,7 @@ yarn dev
 
 4. Live Website
 
-[https](https://)
+[https](https://hospital-finder-dkbc.vercel.app/)
 
 `
 ## 📌 Usage
