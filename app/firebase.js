@@ -1,8 +1,10 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
+const api = import.meta.env.FIREBASE_API_KEY;
+
 const firebaseConfig = {
-  apiKey: "AIzaSyApSbkDdgHTZDHGF62ZYNsU8QduGapALlY",
+  apiKey: api,
   authDomain: "hospital-a1608.firebaseapp.com",
   projectId: "hospital-a1608",
   storageBucket: "hospital-a1608.firebasestorage.app",
