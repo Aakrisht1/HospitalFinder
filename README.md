@@ -44,14 +44,14 @@ The Hospital Finder is a web application that helps users locate nearby hospital
 
 
 `npm install`
-# or
+or
 `yarn install`
 
 3. Run the development server
 
 
 `npm run dev`
-# or
+or
 `yarn dev`
 
 
