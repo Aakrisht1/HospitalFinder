@@ -1,8 +1,12 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
+require('dotenv').config();
+
+const api = process.env.NEXT_PUBLIC_FIREBASE_API_KEY;
+
 const firebaseConfig = {
-  apiKey: "AIzaSyApSbkDdgHTZDHGF62ZYNsU8QduGapALlY",
+  apiKey: api,
   authDomain: "hospital-a1608.firebaseapp.com",
   projectId: "hospital-a1608",
   storageBucket: "hospital-a1608.firebasestorage.app",
